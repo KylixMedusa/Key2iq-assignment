@@ -12,6 +12,10 @@ section to “output” section by just clicking on it. Remember that both secti
 
 In the project directory, you can run:
 
+### `npm install`
+
+Will install all the required dependencies for the application to work included in the package.json file
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
