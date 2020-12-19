@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Web Page should contain 2 customizable text editor sections. Let’s name them “output” and
+“suggestion”. Both sections will contain some dummy texts in it. Text will be in bullet lines format.
+Now the problem is that user should be able to paste the text(1 bullet line) from “suggestion”
+section to “output” section by just clicking on it. Remember that both sections are editable by user.
+
+### Dependencies(Aditionally added)
+- node-sass
+
 ## Available Scripts
 
 In the project directory, you can run:
