@@ -1,0 +1,53 @@
+.App{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    user-select: none;
+    .section{
+        height: 500px;
+        width:40%;
+        border-radius: 10px;
+        padding: 20px;
+        border: 2px solid black;
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        h3{
+            margin: 0;
+        }
+        ul{
+            outline: 0;
+            height: 90%;
+            overflow-y: auto;
+            li{
+                margin-bottom: 10px;
+                background-color: whitesmoke;
+                cursor: pointer;
+            }
+            &[contenteditable = "true"]{
+                li{
+                    cursor: text;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    .App{
+        flex-direction: column;
+        gap:10%;
+        .section{
+            width: 80%;
+            height: 45vh;
+            &:nth-child(2){
+                margin-top: 10vh;
+            }
+        }
+    }
+}
