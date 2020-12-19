@@ -112,7 +112,12 @@ function App() {
           ref={inputElemOutput}
           onKeyDown={handlekeyPressOutput}
         >
-          <li></li>
+          <li>Praesent placerat risus quis eros.</li>
+          <li>Fusce pellentesque suscipit nibh.</li>
+          <li>Integer vitae libero ac risus egestas placerat.</li>
+          <li>Vestibulum commodo felis quis tortor.</li>
+          <li>Ut aliquam sollicitudin leo.</li>
+          <li>Cras iaculis ultricies nulla.</li>
         </ul>
       </div>
     </div>
